@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <header class=""></header>
+  <header style="margin-top: -6rem;"></header>
   <main class="text-center">
     <div class="flex-center gap-4">
       <img src="../resources/logo.svg" alt="logo" />
