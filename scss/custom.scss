@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../src/fonts/Poppins-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../src/fonts/Poppins-Medium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../src/fonts/Poppins-SemiBold.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+$btn-font-family : $font-family-sans-serif;
+
+$white: #FFFFFF;
+$black: #000000;
+$primary: #284BCE;
+$secondary: #394150;
+$grays: (
+  100: #F9FAFB,
+  300: #E5E7EB,
+  600: #6C727F
+);
+
+$theme-colors: (
+  "primary": #284BCE,
+  "secondary": #394150,
+  "gray-100": map-get($grays, 100),
+  "gray-300": map-get($grays, 300),
+  "gray-600": map-get($grays, 600),
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.subheading {
+  font-size: clamp(1.3rem, 5vw, 1.25rem);
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.placeholder-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6C727F;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button-text {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.helper-text {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #6C727F;
+  font-family: 'Poppins', sans-serif;
+}
