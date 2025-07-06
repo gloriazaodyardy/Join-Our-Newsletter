@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solution/53998">
       Solution
     </a>
     <span> | </span>
@@ -44,8 +44,8 @@ Implement Bootstrap 5 in Vue and custom Bootstrap using SASS/SCSS.
 ### Useful resources
 
 
-- [Customize Bootstrap using SASS/SCSS](https://getbootstrap.com/docs/5.0/customize/sass/#importing)
 - [Using bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [Customize Bootstrap using SASS/SCSS](https://getbootstrap.com/docs/5.0/customize/sass/#importing)
 
 
 ### Built with
